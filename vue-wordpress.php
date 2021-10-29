@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name:       Vue Wordpress
- * Description:       Vue Wordpress plugin starter template by Laravel Mix.
+ * Description:       Vue Wordpress plugin starter template by Laravel Mix. Vuetify and vue router added successfully.
  * Version:           1.0.0
  * Author:            Naeem Haque
  * License:           GPL v2 or later
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 require_once __DIR__ . '/vendor/autoload.php';
 
 
-final class PluginTemplate
+final class VueWordpress
 {
 
     /**
@@ -112,9 +112,9 @@ final class PluginTemplate
 
 }
 
-function plugin_template()
+function vue_wordpress()
 {
-    return new PluginTemplate();
+    return new VueWordpress();
 }
 
-plugin_template();
+vue_wordpress();
